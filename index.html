@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/2516681743.js"></script>
     <title>Pet Welfare</title>
     <link rel="stylesheet" href="main.min.css">
 </head>
@@ -14,28 +15,102 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-6">
                 <a class="brand" href="#">
                     <img alt="Brand" src="http://www.petwelfare.net/graphics/pet_welfare_logo_web.jpg">
                 </a>
             </div>
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="topnav" id="myTopnav">
-                        <a href="#home">Home</a>
-                        <a href="#news">News</a>
-                        <h3>Pet Welfare</h3>
-                        <a href="#contact">Contact</a>
-                        <a href="#about">About</a>
-                    </div>
+            <div class="col-xs-6">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="topnav" id="myTopnav">
+                    <a href="#home">Home</a>
+                    <a href="#news">Mission</a>
+                    <a href="#contact">Shelter Needs</a>
+                    <a href="#about">Adoption</a>
+                    <a href="#about">Volunteer</a>
+                    <a href="#about">Board of Directors</a>
+                    <a href="#about">Contact</a>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-xs-9">
+                <img src="https://static.pexels.com/photos/24104/pexels-photo-24104.jpg" class="img-rounded" alt="cat-dog" id="cat-dog">
+            </div>
+            <div class="col-xs-3">
+                <div class="box-styling">
+                    <p class="lead">Rescuing and Rehoming Animals</p>
+                    <p> Into our 4th decade of loving and caring for animals waiting for their furever homes! </p>
+                    <p> Pet Welfare has been in operation since 1982 where we were once just giving the cats and dogs away because
+                        there were so many and we were just happy to find a home for all the strays. Still to this day Pet
+                        Welfare is a no-kill facility open to the public trying to aid the military when they have to leave
+                        their pets behind.
+                    </p>
+                    <p> In 2002, after 6 years of hard fundraising, Pet Welfare celebrated the grand opening of a new facility.
+                        We are always in need of volunteers and foster homes and depend solely on donations and grants. Everyday
+                        we love and care for animals in need and on those days when we feel we’re the only ones caring or
+                        can barely think straight because we’re so tired, we pick ourselves up and look around and remember
+                        what we do it for...the animals that need us.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="well">
+                    <h2>Helpful resources for awesome pet parents</h2>
+                    <p>Tips on how to keep your dog cool this summer <a href="http://www.care2.com/greenliving/9-cool-dog-tips-for-hot-times.html">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </a></p>
+                    <p>Pet preparedness plan for hurricane season <a href="http://www.petwelfare.net/Flyers/Pet%20Preparedness.pdf">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </a></p>
+                    <p>Pet Poison Helpline & Information <a href="http://www.petpoisonhelpline.com">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </a></p>
+                    <p>Pet Welfare Events <a href="http://www.petwelfare.net/events.html">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </a></p>
+                    <p>Dogs on Deployment <a href="https://www.dogsondeployment.org/">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </a></p>                                        
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                <div class="btn-group btn-group-justified" role="group" aria-label="..." id="mySecondNav">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-default">Adoptable Cats</button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-default">Adoptable Dogs</button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-default">Adoptable Animals</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-8">
+                <img src="https://static.pexels.com/photos/29696/pexels-photo-29696.jpg" class="img-rounded" alt="puppy" id="puppy">
+            </div>
+        </div>
     </div>
-
     <footer>
-        <div class="col-xs-12">
-            <div id="googleMap1" style="width:fill;height:200px;"></div>
+        <div class="container-fluid" id="map">
+            <div class="row">
+                <div class="col-xs-12">
+                <div class="social">
+                
+                </div>
+                </div>
+                <div class="col-xs-12">
+                    <div id="googleMap1"></div>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="app.js"></script>
