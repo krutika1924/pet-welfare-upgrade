@@ -2,6 +2,7 @@
   overflow: hidden;
   background-color: #fff;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .topnav a {
@@ -26,4 +27,9 @@
 
 body {
   background-color: #F4F3F1;
+}
+
+.topnav h3 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
 }
