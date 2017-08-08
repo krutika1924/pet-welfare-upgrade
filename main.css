@@ -34,7 +34,8 @@ h3 {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-family: 'Lato', sans-serif;
 }
 
 .lead {
@@ -74,6 +75,13 @@ i .fa-external-link {
   background-color: #46b5ff;
   color: white;
   font-family: 'Open Sans', sans-serif;
+}
+
+.pups {
+  padding-top: 10px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 #cat-dog {
