@@ -68,13 +68,19 @@ i .fa-external-link {
 
 .well button {
   color: black;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .well button:hover {
   background-color: #46b5ff;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+.well button:hover {
+  background-color: #46b5ff;
+  color: white;
+  font-family: 'Lato', sans-serif;
 }
 
 .pups {
@@ -132,4 +138,17 @@ i .fa-external-link {
 
 .social {
   padding-bottom: 15px;
+}
+
+.fa-heart {
+  color: red;
+  background-color: white;
+}
+
+.fa-heart:hover {
+  font-size: 25px;
+}
+
+#heart {
+  background-color: white;
 }
