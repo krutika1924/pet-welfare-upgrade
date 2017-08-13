@@ -2,6 +2,8 @@
   overflow: hidden;
   background-color: #fff;
   font-family: 'Julius Sans One', sans-serif;
+  border: solid thin;
+  text-align: center;
 }
 
 .topnav a {
@@ -9,7 +11,7 @@
   display: block;
   color: #000;
   padding: 14px 16px;
-  text-decoration: none;
+  border-right: solid black thin;
   font-size: 17px;
 }
 
@@ -159,4 +161,49 @@ i .fa-external-link {
 
 .modal-space {
   padding: 10px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.modal-header {
+  background-color: #5bc0de;
+  color: white;
+  font-weight: bold;
+}
+
+a p {
+  color: red;
+}
+
+.bequest {
+  font-style: italic;
+}
+
+ul li {
+  text-align: center;
+}
+
+.wish-list {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 7px;
+  text-decoration: underline;
+}
+
+.text p a {
+  color: white;
+  font-weight: bolder;
+}
+
+/* Important part */
+.modal-dialog {
+  overflow-y: initial;
+}
+
+.modal-body {
+  height: 500px;
+  overflow-y: auto;
 }
