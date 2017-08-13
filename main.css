@@ -152,3 +152,7 @@ i .fa-external-link {
 #heart {
   background-color: white;
 }
+
+.panel-default {
+  text-align: center;
+}
