@@ -156,3 +156,7 @@ i .fa-external-link {
 .panel-default {
   text-align: center;
 }
+
+.modal-space {
+  padding: 10px;
+}
