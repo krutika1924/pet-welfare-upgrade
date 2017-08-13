@@ -86,6 +86,16 @@ i .fa-external-link {
   font-family: 'Lato', sans-serif;
 }
 
+#mission-staff {
+  background-color: #a8dcff;
+}
+
+#mission-staff p {
+  font-weight: bold;
+  color: white;
+  font-size: 17px;
+}
+
 .pups {
   padding-top: 10px;
   color: black;
